@@ -1,0 +1,15 @@
+object MainForm: TMainForm
+  Left = 251
+  Height = 424
+  Top = 151
+  Width = 864
+  Caption = '[APP_NAME]  [ver]'
+  OnActivate = FormActivate
+  LCLVersion = '1.3'
+  object AppSettings: TIniPropStorage
+    StoredValues = <>
+    IniFileName = 'setting.conf'
+    left = 128
+    top = 64
+  end
+end
